@@ -1,0 +1,26 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha src/**/*.spec.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "dependencies": {
+    "koa": "2.5.1",
+    "koa-router": "7.4.0",
+    "moment": "^2.22.2",
+    "sqlite3": "4.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "mocha": "5.2.0"
+  }
+}
